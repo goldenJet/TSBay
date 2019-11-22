@@ -36,7 +36,7 @@
 
 同理，对于B的心路历程也相似，B也会选择招供：
 
-![囚徒B的心路历程](http://blogsource.chenkaikai.com/uploads/2019/11/nash-equilibrium02.png)
+![囚徒B的心路历程](http://blogsource.chenkaikai.com/uploads/2019/11/nash-equilibrium08.png)
 
 所以最终的结果是A和B都选择了招供。
 
@@ -61,7 +61,7 @@
 
 所以，不管大猪怎么样，小猪都会选择在原地等待。
 
-![大猪的心路历程](http://blogsource.chenkaikai.com/uploads/2019/11/nash-equilibrium05.png)
+![小猪的心路历程](http://blogsource.chenkaikai.com/uploads/2019/11/nash-equilibrium09.png)
 
 **大猪心路历程：**
 - 如果小猪去按按钮，则小猪消耗 2，那么 ①大猪不去按按钮，则大猪先吃的，大猪可以吃 9份，小猪吃 1份，记为（9，-1），②大猪也去按的话，大猪吃 7份，小猪吃 3份，各自消耗 2，记为（5，1），所以大猪选择不去按按钮
@@ -69,7 +69,7 @@
 
 所以，表面上看，大猪的决策是受到小猪的决策所影响的，但是分析小猪的心路历程得知，小猪是不会去按按钮的，那么大猪最后的决策还是会选择去按按钮，这样大猪的收益才会最大化。
 
-![小猪的心路历程](http://blogsource.chenkaikai.com/uploads/2019/11/nash-equilibrium07.png)
+![大猪的心路历程](http://blogsource.chenkaikai.com/uploads/2019/11/nash-equilibrium07.png)
 
 所以综上，最终结果是大猪去按按钮，而小猪在原地等待着。
 
