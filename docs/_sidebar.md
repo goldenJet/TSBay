@@ -10,6 +10,9 @@
 - 软件操作
   - [iTerm2 操作](soft/iTerm2.md)
 
+- 趣知识
+  - [小白也懂博弈论：纳什均衡](kp/nash-equilibrium.md)
+
 - 读书笔记
   - [《穷爸爸富爸爸》](book/Rich-Dad-Poor-Dad.md)
   
