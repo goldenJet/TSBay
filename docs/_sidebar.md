@@ -21,6 +21,7 @@
 
 - 读书笔记
   - [《穷爸爸富爸爸》](book/Rich-Dad-Poor-Dad.md)
+  - [《小狗钱钱》](book/Money-oder-das-1×1-des-Geldes.md)
   
 - 杂项
   - [开源协议说明](others/open-source-agreement.md)
