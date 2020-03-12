@@ -10,8 +10,9 @@
   - [如何判断网站是否已启用 HTTP2](net/http2-judge.md)
   - [HTTP 状态码](net/http-status-code.md)
 
-- 软件操作
+- 软件操作&小技巧
   - [iTerm2 操作](soft/iTerm2.md)
+  - [Windows 操作](soft/Windows.md)
 
 - 趣知识
   - [用“价格歧视”来告诉你双十一的套路](kp/price-discrimination.md)
