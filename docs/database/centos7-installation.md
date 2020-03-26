@@ -7,7 +7,9 @@
 ## 下载mysql 5.7 安装包
 #### 下载
 前往官方网站复制 yum 源链接 [【Mysql官网】](https://dev.mysql.com/downloads/repo/yum/)
+
 ![](http://blogsource.chenkaikai.com/uploads/2019/11/mysql01.png)
+
 ![](http://blogsource.chenkaikai.com/uploads/2019/11/mysql02.png)
 
 执行 `wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm`（即你复制的下载链接）进行下载
@@ -17,6 +19,7 @@
 执行 `rpm -ivh mysql80-community-release-el7-3.noarch.rpm` 命令
 
 接下来可以通过 `yum repolist all | grep mysql` 查看 yum 源中的 mysql 安装包
+
 ![](http://blogsource.chenkaikai.com/uploads/2019/11/mysql03.png)
 
 
@@ -36,9 +39,11 @@ yum-config-manager --enable mysql57-community
 修改 mysql57-community 为 enabled=1
 
 可以参考下图：
+
 ![](http://blogsource.chenkaikai.com/uploads/2019/11/mysql05.png)
 
 我们再查看 yum 源中的 mysql 安装包，发现已经改成 5.7 版本了
+
 ![](http://blogsource.chenkaikai.com/uploads/2019/11/mysql04.png)
 
 
@@ -51,10 +56,13 @@ yum-config-manager --enable mysql57-community
 
 >小插曲，我一开始启动的时候是有报错的，不用慌，从日志里面找答案。
 `less /var/log/mysqld.log`
+
 ![](http://blogsource.chenkaikai.com/uploads/2019/11/mysql06.png)
+
 日志很明显，告诉我 3306 端口占用，查都不用查是谁占用了，想起来由于 docker 中部署的 percona 已经将宿主机的 3306 端口占用掉了，所以就退一步，改下配置文件，调整了一下端口。
 修改配置文件：`vim /etc/my.cnf`
 添加端口配置：`port = 3307`，注意，一定要在 [mysql] 下方添加
+
 ![](http://blogsource.chenkaikai.com/uploads/2019/11/mysql07.png)
 
 **敲黑板：此处只修改了配置文件中的端口号，更多的优化配置下文会介绍**

@@ -13,11 +13,13 @@
 
 
 这首歌是被收录在霉霉2012年10月22日发行的第四张录音室专辑《Red》中。
+
 ![Red](http://blogsource.chenkaikai.com/uploads/2019/12/red01.jpg)
 
 
 
 霉霉凭借《All too well》获得了美国CMA乡村音乐节，最佳乡村歌曲提名。同时在2014年的56届格莱美奖上做表演曲目使用。
+
 ![2014 年格莱美上演唱 All Too Well](http://blogsource.chenkaikai.com/uploads/2019/12/ATW01.png)
 
 
