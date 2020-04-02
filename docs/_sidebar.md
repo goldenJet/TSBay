@@ -7,7 +7,7 @@
 
 - 数据库
   - [CentOS7 安装 mysql5.7](database/centos7-installation.md)
-  - [Myslq 配置](database/mysql-config.md)
+  - [Mysql 配置](database/mysql-config.md)
   - [Mysql 基础操作](database/mysql-operations.md)
 
 - 网络
