@@ -4,6 +4,7 @@
   - [Python 相关基础操作](deploy/python.md)
   - [前端开发](deploy/font.md)
   - [详解 HashMap 数据结构](deploy/analysis-HashMap.md)
+  - [git 基本操作](deploy/git.md)
 
 - 数据库
   - [CentOS7 安装 mysql5.7](database/centos7-installation.md)
