@@ -1,3 +1,21 @@
+## SQL 相关操作
+
+group_concat 指定排序规则 & 指定连接的字符：
+`GROUP_CONCAT(name order by id asc SEPARATOR '/')`
+
+DATE_FORMAT() 主要参数：
+
+|字段 |描述 |demo |
+|:---- |:---- |:---- |
+|%Y |年 |2020 |
+|%m |月 |04 |
+|%d |日 |07 |
+|%T |时间 24-小时 (`hh:mm:ss`) |`09:03:03` |
+|%H |时 |09、21|
+|%i |分 |03 |
+|%s |秒 |03 |
+|%w |星期 |0=星期日, 6=星期六 |
+
 ## 数据库死锁解决办法
 step1：查看当前事务： `select * from information_schema.INNODB_TRX;`
 step2：杀掉抢资源的线程：`Kill [trx_mysql_thread_id]；`
