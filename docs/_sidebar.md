@@ -18,6 +18,7 @@
 - 软件操作&小技巧
   - [iTerm2 操作](soft/iTerm2.md)
   - [Windows 操作](soft/Windows.md)
+  - [Intellij IDEA 操作](soft/IDEA.md)
 
 - 趣知识
   - [用“价格歧视”来告诉你双十一的套路](kp/price-discrimination.md)
