@@ -7,6 +7,7 @@
   - [详解双边队列 Deque](deploy/deque.md)
   - [git 基本操作](deploy/git.md)
   - [linux 基本操作](deploy/linux.md)
+  - [Java GC](deploy/gc.md)
 
 - 数据库
   - [CentOS7 安装 mysql5.7](database/centos7-installation.md)
