@@ -229,6 +229,8 @@ nginx 不仅支持 http 协议，还支持 https（即在ssl协议上传输http�
 
 运行命令进行配置：`./configure`
 
+> 建议使用 `./configure --prefix=/usr/local/nginx --with-http_ssl_module`，作用是开启 SSL 的支持
+
 编译：`make`
 
 安装：`make install`
