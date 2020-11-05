@@ -1,7 +1,12 @@
 ## SQL 相关操作
 
+#### group_concat
+
 group_concat 指定排序规则 & 指定连接的字符：
 `GROUP_CONCAT(name order by id asc SEPARATOR '/')`
+
+
+#### 时间
 
 DATE_FORMAT() 主要参数：
 
@@ -15,6 +20,16 @@ DATE_FORMAT() 主要参数：
 |%i |分 |03 |
 |%s |秒 |03 |
 |%w |星期 |0=星期日, 6=星期六 |
+
+#### 查询结果添加一个排序列
+
+比如查询的结果想要增加一列，内容为：3、4、5、6。。。
+```sql
+set @rn=2;
+SELECT
+    (@rn:=@rn+1) as id,
+    ...
+```
 
 ## 数据库死锁解决办法
 step1：查看当前事务： `select * from information_schema.INNODB_TRX;`
