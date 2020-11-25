@@ -9,6 +9,7 @@
   - [linux 基本操作](deploy/linux.md)
   - [Java GC](deploy/gc.md)
   - [Swap 设置](deploy/swap.md)
+  - [JVM 逃逸分析](deploy/escapeAnalysis.md)
 
 - 数据库
   - [CentOS7 安装 mysql5.7](database/centos7-installation.md)
