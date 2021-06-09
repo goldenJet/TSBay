@@ -28,6 +28,9 @@
   - [Centos7.6 环境](/soft/Centos.md)
   - [rpm 包与 yum 的安装与卸载](/soft/rpm.md)
 
+- 踩坑记
+  - [java: Compilation failed](error/compilation-failed.md)
+
 - 趣知识
   - [用“价格歧视”来告诉你双十一的套路](kp/price-discrimination.md)
   - [小白也懂博弈论：纳什均衡](kp/nash-equilibrium.md)
