@@ -30,6 +30,7 @@
 
 - 踩坑记
   - [java: Compilation failed](error/compilation-failed.md)
+  - [java: Shorten command line](error/shorten-command-line.md)
 
 - 趣知识
   - [用“价格歧视”来告诉你双十一的套路](kp/price-discrimination.md)
