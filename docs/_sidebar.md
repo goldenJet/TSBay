@@ -4,10 +4,16 @@
   - [Python 相关基础操作](deploy/python.md)
   - [前端开发](deploy/font.md)
   - [详解 HashMap 数据结构](deploy/analysis-HashMap.md)
+  - [详解双边队列 Deque](deploy/deque.md)
+  - [git 基本操作](deploy/git.md)
+  - [linux 基本操作](deploy/linux.md)
+  - [Java GC](deploy/gc.md)
+  - [Swap 设置](deploy/swap.md)
+  - [JVM 逃逸分析](deploy/escapeAnalysis.md)
 
 - 数据库
   - [CentOS7 安装 mysql5.7](database/centos7-installation.md)
-  - [Myslq 配置](database/mysql-config.md)
+  - [Mysql 配置](database/mysql-config.md)
   - [Mysql 基础操作](database/mysql-operations.md)
 
 - 网络
@@ -17,6 +23,14 @@
 - 软件操作&小技巧
   - [iTerm2 操作](soft/iTerm2.md)
   - [Windows 操作](soft/Windows.md)
+  - [Intellij IDEA 操作](soft/IDEA.md)
+  - [16 进制的实用小技巧](soft/16.md)
+  - [Centos7.6 环境](/soft/Centos.md)
+  - [rpm 包与 yum 的安装与卸载](/soft/rpm.md)
+
+- 踩坑记
+  - [java: Compilation failed](error/compilation-failed.md)
+  - [java: Shorten command line](error/shorten-command-line.md)
 
 - 趣知识
   - [改变人生的 6 种思维方式](kp/way-of-thinking.md)

@@ -107,3 +107,7 @@ use mysql;
 update user set host = "%" where user = "root";
 FLUSH PRIVILEGES;
 ```
+
+## 相关路径
+
+- 配置文件路径： /etc/my.cnf
