@@ -19,6 +19,7 @@
   - [Windows 操作](soft/Windows.md)
 
 - 趣知识
+  - [改变人生的 6 种思维方式](kp/way-of-thinking.md)
   - [用“价格歧视”来告诉你双十一的套路](kp/price-discrimination.md)
   - [小白也懂博弈论：纳什均衡](kp/nash-equilibrium.md)
   - [科普片：身份证号码背后的数学故事](kp/id-number.md)
