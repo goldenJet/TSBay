@@ -1,7 +1,10 @@
 TReasure Bay
 
+[【docsify 官网】](https://docsify.js.org/#/zh-cn/)
 
-[【官网】](https://docsify.js.org/#/zh-cn/)
+
+
+[【项目网址】](http://tsbay.jetchen.cn)
 
 ## 安装
 安装客户端：
