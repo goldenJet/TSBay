@@ -33,3 +33,17 @@ fi
 ```
 
 执行脚本，然后提交到远程：`git push origin --force --all`
+
+## 阿里云服务器连接不上 github
+
+不整翻墙的工具，直接修改 host 文件临时解决下。
+
+1. 在网站：https://github.com.ipaddress.com/ 上面分别查询出 **github.com** 和 **github.global.ssl.fastly.net** 的 ip，
+2. vim /etc/hosts，修改 hosts 文件，添加：
+
+``` bash
+140.82.114.4 github.com
+199.232.69.194 github.global.ssl.fastly.net
+```
+
+
