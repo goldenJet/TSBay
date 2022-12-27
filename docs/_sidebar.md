@@ -16,6 +16,7 @@
   - [CentOS7 安装 mysql5.7](database/centos7-installation.md)
   - [Mysql 配置](database/mysql-config.md)
   - [Mysql 基础操作](database/mysql-operations.md)
+  - [redis 基础操作](database/redis-operations.md)
 
 - 网络
   - [如何判断网站是否已启用 HTTP2](net/http2-judge.md)
