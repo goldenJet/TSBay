@@ -48,6 +48,7 @@
   
 - 杂项
   - [开源协议说明](others/open-source-agreement.md)
+  - [Alist](others/alist.md)
 
 - 吃货的野路子
   - [电饭煲蛋糕](cook/cake.md)
