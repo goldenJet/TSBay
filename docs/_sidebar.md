@@ -29,6 +29,7 @@
   - [16 进制的实用小技巧](soft/16.md)
   - [Centos7.6 环境](/soft/Centos.md)
   - [rpm 包与 yum 的安装与卸载](/soft/rpm.md)
+  - [JetBrains 全系列激活](/soft/JB.md)
 
 - 踩坑记
   - [java: Compilation failed](error/compilation-failed.md)
