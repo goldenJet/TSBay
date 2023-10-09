@@ -34,6 +34,7 @@
 - 踩坑记
   - [java: Compilation failed](error/compilation-failed.md)
   - [java: Shorten command line](error/shorten-command-line.md)
+  - [MacOS: Too many open files in system](/error/too-many-open-files-in-system.md)
 
 - 趣知识
   - [改变人生的 6 种思维方式](kp/way-of-thinking.md)
