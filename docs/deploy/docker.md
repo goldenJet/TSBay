@@ -62,6 +62,23 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
+
+#### 查看运行中的容器启动时的参数
+
+运行已久的 docker 容器，我们可能已经忘记了当时启动时的参数设置，所以可以用下列的方法打印 docker 容器的启动命令。
+
+1. 方法一： **runlike**
+   - 安装：```pip install runlike```
+   - 运行：``` runlike -p [容器名称]```
+
+2. 方法二：**get_command_4_run_container**
+   - 下载镜像：```docker pull cucker/get_command_4_run_container```
+   - 运行：```docker run --rm -v /var/run/docker.sock:/var/run/docker.sock cucker/get_command_4_run_container [容器名称]或[容器ID]```
+
+3. 方法三：**docker inspect**
+   - 运行：docker inspect [容器名称]或[容器ID]
+
+
 ## 镜像制作
 
 以一个最简单的 demo 为例：
