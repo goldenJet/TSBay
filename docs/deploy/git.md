@@ -34,6 +34,8 @@ fi
 
 执行脚本，然后提交到远程：`git push origin --force --all`
 
+
+
 ## 阿里云服务器连接不上 github
 
 不整翻墙的工具，直接修改 host 文件临时解决下。
@@ -45,6 +47,8 @@ fi
 140.82.114.4 github.com
 199.232.69.194 github.global.ssl.fastly.net
 ```
+
+
 
 ## git 提交代码统计
 
@@ -109,4 +113,45 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
 
 
 
+## git ssh
 
+> 原理： ~/.ssh 路径下生成秘钥，git 平台上去添加即可
+
+
+- 本地查看是否已有秘钥
+
+  id_rsa 和 id_rsa.pub文件
+
+
+- 本地添加秘钥
+
+  ``` bash
+  cd ~/.ssh
+  ll
+  ssh-keygen -t rsa -C "goldenJet"
+  ```
+
+  ![Snipaste_2023-11-07_12-04-18](http://blogsource.chenkaikai.com/uploads/2023/11/Snipaste_2023-11-07_12-04-18.png)
+
+
+- 公钥内容复制
+
+  ``` bash
+  cat id_rsa.pub
+  ```
+
+
+- github 添加秘钥
+
+​	[添加 SSH Key](https://github.com/settings/ssh/new)
+
+![Snipaste_2023-11-07_12-10-18](http://blogsource.chenkaikai.com/uploads/2023/11/Snipaste_2023-11-07_12-10-18.png)
+
+
+- 验证
+
+  ``` bash
+  ssh -T git@github.com
+  ```
+
+  ![Snipaste_2023-11-07_12-12-26](http://blogsource.chenkaikai.com/uploads/2023/11/Snipaste_2023-11-07_12-12-26.png)
