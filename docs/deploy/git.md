@@ -160,12 +160,17 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
 ## github 加速
 
 - 修改 host 文件
+
 下述网站获取 ip 地址：
+
 [https://sites.ipaddress.com/github.global.ssl.fastly.net/#ipinfo](https://sites.ipaddress.com/github.global.ssl.fastly.net/#ipinfo)
+
 [https://sites.ipaddress.com/github.com/#ipinfo](https://sites.ipaddress.com/github.com/#ipinfo)
 
 - host 文件内添加类似如下：
+
 151.101.1.194 github.global.ssl.fastly.net
+
 140.82.112.4 github.com
 
 
