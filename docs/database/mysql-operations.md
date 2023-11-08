@@ -1,5 +1,12 @@
 ## SQL 相关操作
 
+#### 连接
+
+``` 
+mysql -h 192.1.1.1 -u root -p
+```
+
+
 #### group_concat
 
 group_concat 指定排序规则 & 指定连接的字符：
