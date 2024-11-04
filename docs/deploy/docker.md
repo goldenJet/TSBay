@@ -162,6 +162,36 @@ sudo docker run --name mysql5.7 --restart always --privileged=true -p 4306:3306 
 
 - 容器内默认的配置文件路径：`/etc/mysql/mysql.conf.d/mysqld.cnf`
 
-## 踩坑
+## 踩坑 1.0
 
 直接见 [http://www.jetchen.cn/docker%e5%b8%b8%e7%94%a8%e6%8a%80%e5%b7%a7/](http://www.jetchen.cn/docker%e5%b8%b8%e7%94%a8%e6%8a%80%e5%b7%a7/)
+
+
+## 踩坑 - `missing signature key`
+
+拉取镜像时报错：`missing signature key`
+
+原因：
+docker版本过低，导致与对应镜像版本不兼容导致的。
+docker推出了新的镜像构建工具，比较老版本的docker不能识别这种格式。用阿里云镜像源安装的docker版本是1.13.1，这个版本是2017年发布的，需要升级版本。你可以使用 sudo docker -- version 命令查看一下自己的docker版本，1.13.1版本太低。
+
+``` bash
+# 卸载docker
+sudo yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
+ 
+# 安装docker
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install docker-ce docker-ce-cli containerd.io
+ 
+# 启动
+sudo systemctl start docker
+ 
+# 设置开启启动
+sudo systemctl enable docker
+ 
+# 验证docker版本
+docker --version
+```
+
+
